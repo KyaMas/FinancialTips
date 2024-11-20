@@ -8,8 +8,7 @@ import { OverviewAnalyticsView } from 'src/sections/overview/view';
 
 export default function Page() {
   return (
-    <>
-      <Helmet>
+    <Helmet>
         <title> {`Dashboard - ${CONFIG.appName}`}</title>
         <meta
           name="description"
@@ -17,8 +16,5 @@ export default function Page() {
         />
         <meta name="keywords" content="react,material,kit,application,dashboard,admin,template" />
       </Helmet>
-
-      <OverviewAnalyticsView />
-    </>
   );
 }
