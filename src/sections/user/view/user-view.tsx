@@ -40,9 +40,8 @@ export function UserView() {
         method: "POST",
         body: fd
     })
-    .then(res => res.json())
+    .then(res => console.log(res))
     .then(data => console.log(data))
-
   }
 
   return (

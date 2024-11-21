@@ -44,3 +44,14 @@ print("Model and vectorizer saved!")
 # Save the vectorizer
 joblib.dump(tfidf, './data/tfidf_vectorizer.pkl')
 print("Vectorizer saved!")
+
+
+# problem statement 
+# proposed solution 
+# related work 
+# methodology -> data set 
+# data set cleaning & pre processing (19 products and 9 users)
+# cleaned data -> we have user details with their spending of different item with the review and ratings (huggegin space -> distiler bert uncased finetuned on english)
+# find the all products with sentiment rating from the review (NLP part)
+# ML recommendation system -> based on user id, sentiment rating, avg sale price, cloth type
+# input diff user id -> show them which product they can buy
